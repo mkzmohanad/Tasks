@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John wick</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            background-image: url("imgs/istockphoto-1125558531-612x612.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+        }
+        .actors {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        div img {
+            width:200px;
+            height:250px;
+        }
+        a {
+            text-decoration: none;
+            margin-bottom: 25px;
+        }
+        ul {
+            padding: 50px;
+            align-self: flex-start;
+            font-size: 1.2em;
+        }
+        video {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Actors:</h1>
+        <div class="actors">
+            <img src="/firstMovie/pics/img-1.png" alt="">
+            <img src="/firstMovie/pics/img-2.png" alt="">
+            <img src="/firstMovie/pics/img-3.png" alt="">
+            <img src="/firstMovie/pics/img-4.png" alt="">
+            <img src="/firstMovie/pics/img-5.png" alt="">
+        </div>
+        <button>
+            <a href="https://www.imdb.com/title/tt0241527/" target="_blank">
+                more info about movie
+            </a>
+        </button>
+        <ul>
+            <h3>Most popular actors:</h3>
+            <li><b>1-Emma Watson</b></li>
+            <li><i>2-Daniel Radcliffe</i></li>
+            <li><del>3-Rupert Grint</del></li>
+            <li><mark>4-Robbie Coltrane</mark></li>
+            <li><small>5-Harry Melling</small></li>
+        </ul>
+        <video controls muted width="650px" height="350px">
+            <source src="/firstMovie/vids/WhatsApp Video 2023-05-04 at 6.39.40 PM.mp4" type="video/mp4">
+            <source src="/firstMovie/vids/WhatsApp Video 2023-05-04 at 6.39.40 PM.ogg" type="video/ogg">
+            this video is not available
+        </video>
+        <a href="/index.html">Back To Home</a>
+    </body>
+</html>

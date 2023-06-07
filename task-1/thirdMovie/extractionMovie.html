@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John wick</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            background-image: url("imgs/istockphoto-1125558531-612x612.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+        }
+        .actors {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: auto;
+            margin-bottom:10px;
+        }
+        div img {
+            width:200px;
+            height:250px;
+        }
+        a {
+            text-decoration: none;
+            margin-bottom: 25px;
+        }
+        ul {
+            padding: 50px;
+            align-self: flex-start;
+            font-size: 1.2em;
+        }
+        video {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Actors:</h1>
+        <div class="actors">
+            <img src="/thirdMovie/pics/actor-1.jpg" alt="">
+            <img src="/thirdMovie/pics/actor-2.jpg" alt="">
+            <img src="/thirdMovie/pics/actor-3.jpg" alt="">
+            <img src="/thirdMovie/pics/actor-4.jpg" alt="">
+            <img src="/thirdMovie/pics/actor-5.jpg" alt="">
+        </div>
+        <button>
+            <a href="https://www.imdb.com/title/tt8936646/" target="_blank">
+                more info about movie
+            </a>
+        </button>
+        <ul>
+            <h3>Most popular actors:</h3>
+            <li>1-Tyler Rake</li>
+            <li>2-Saju</li>
+            <li>3-Ovi Mahajan</li>
+            <li>4-Nesya Rav</li>
+            <li>5-nick kan</li>
+        </ul>
+        <video controls muted width="650px" height="350px">
+            <source src="/thirdMovie/vids/movie-3.mp4" type="video/mp4">
+            <source src="/thirdMovie/vids/movie-3.ogg" type="video/ogg">
+            this video is not available
+        </video>
+        <a href="/index.html">Back To Home</a>
+    </body>
+</html>

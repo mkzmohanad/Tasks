@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John wick</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            background-image: url("imgs/istockphoto-1125558531-612x612.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: black;
+        }
+        .actors {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        div img {
+            width:200px;
+            height:250px;
+        }
+        a {
+            text-decoration: none;
+            margin-bottom: 25px;
+        }
+        ul {
+            padding: 50px;
+            align-self: flex-start;
+            font-size: 1.2em;
+        }
+        video {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Actors:</h1>
+        <div class="actors">
+            <img src="/firstMovie/pics/actor-1.jpg" alt="">
+            <img src="/firstMovie/pics/actor-2.jpg" alt="">
+            <img src="/firstMovie/pics/actor-3.jpg" alt="">
+            <img src="/firstMovie/pics/actor-4.jpg" alt="">
+            <img src="/firstMovie/pics/actor-5.jpg" alt="">
+        </div>
+        <button>
+            <a href="https://www.imdb.com/title/tt2911666/" target="_blank">
+                more info about movie
+            </a>
+        </button>
+        <ul>
+            <h3>Most popular actors:</h3>
+            <li>1-John Wick</li>
+            <li>2-Marcus</li>
+            <li>3-Charon</li>
+            <li>4-Vigo Tarasov</li>
+            <li>5-Ms.Perkins</li>
+        </ul>
+        <video controls muted width="650px" height="350px">
+            <source src="/firstMovie/vids/movie-1.mp4" type="video/mp4">
+            <source src="/firstMovie/vids/movie-1.ogg" type="video/ogg">
+            this video is not available
+        </video>
+        <a href="/index.html">Back To Home</a>
+    </body>
+</html>
